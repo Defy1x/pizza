@@ -1,0 +1,77 @@
+*{
+  margin: none;
+  padding: none;
+}
+
+body{
+  background: #FF0000;
+  font-family: 'Share Tech Mono', monospace;
+  color: #000;
+  text-align: center;
+}
+
+#container{
+    width: 60%;
+    background: #FFF;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto;
+    border: 2px dashed gray;
+}
+
+#forms{
+  display: block;
+  text-align: center;
+}
+
+h1{
+  font-size: 36px;
+}
+
+p{
+  font-size: 18px;
+}
+
+li{
+  list-style: none;
+}
+
+article{
+  min-height: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.learn{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+img:hover{
+ transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -webkit-transform: rotate(90deg);
+}
+
+footer{
+  padding-top: 30px;
+}
+
+input[type="Button"]{
+  border: 0px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width:800px){
+  #container {
+    width: 60%;
+  }
+}
